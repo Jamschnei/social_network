@@ -1,0 +1,67 @@
+/*SPECIFIC CSS*/
+/*LOVE YOU*/
+
+
+.pulse
+{
+	background:#fff url(pule.png) repeat-x center top;
+	border-top:1px solid #e0e0e0;
+	padding:10px  0;
+	position:relative;
+	width:100%;
+	height:auto;
+	-webkit-transition-delay: 0s;
+        -webkit-transition-duration: 0.25s ;
+        -webkit-transition-property: background-color,image;
+}
+
+.pulse:hover
+{
+    background:#f8f8f8;
+}
+
+
+/*pulse*/.updater/*Place for thumbnail to come in*/
+{
+     float:left;
+	width:45px;
+	height:auto;
+	padding-right:10px;
+	padding-bottom:auto;
+	width:expression(document.body.clientWidth>69?"70px":"auto");
+    z-index:1;
+}
+
+/*updater's*/.info
+{
+	border-bottom:1px dotted #ddd;
+	font-size:11px;
+	margin:0 0 5px 0;
+	padding:4px 0 0 2px ;
+}
+
+/*pulse*/#current_status
+{
+	background:#f8f8f8 url(pulse.png) repeat-x center bottom;
+	margin:200px 0 0 0;
+	-webkit-transition-delay: 0s;
+        -webkit-transition-duration: 0.45s ;
+        -webkit-transition-property: background-color,image;
+}
+
+
+#current_status:hover
+{
+	background:#fff;
+}
+
+
+/*pulse*/#private_message
+{
+	width:518px;
+	border-right:2px solid #9ACD32;
+}
+/*-----------------*/
+
+
+

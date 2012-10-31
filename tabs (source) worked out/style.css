@@ -1,0 +1,37 @@
+/************************************
+            By Dan Harper
+        http://www.danharper.me
+
+           For NETTUTS.com
+
+     Check out http://vivawp.com
+************************************/
+body{border:7px solid #E7E7DE;
+	font-size:inherit;
+	margin:20px auto;
+	padding:10px 10px;
+	position:relative;
+	width:840px;
+	-webkit-border-top-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;}
+
+.tabdiv{
+padding:20px 0 0;
+}
+
+
+.tabnav li{display:inline;padding:20px;}
+		
+.tabnav a{-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;}	
+		
+
+.ui-tabs-hide {
+		display: none;
+		}
+
+	
+ .tabnav a{padding:20px 30px;background-color:#1aaeff;}
+ .tabnav a:hover{background-color:#60c6ff;}

@@ -1,0 +1,346 @@
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+
+/* NORMAL
+--------------*/
+html,body
+{
+font: 90%  Frutiger, "Frutiger Linotype",Univers, Calibri, "Gill Sans", "Gill Sans MT",  "Myriad Pro", Myriad, "DejaVu Sans Condensed",  "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+color:#5e5e5e;
+
+}
+
+a{color:#B80000;text-decoration:none;}
+a:hover{color:#00566B ;text-decoration:none;}
+
+
+
+
+
+.bordered {
+  width: 430px;
+  height:36px;
+  background: #f3f1eb;
+  border: 1px solid #dedbd1;
+  position:absolute;
+  top:-5px;
+}
+
+
+/*LI STYLING FOR TABS
+------------------------------*/
+.bordered li
+{
+display:inline;
+padding:2px 0;
+}
+
+
+.bordered a:link,active{color:gray  ;text-decoration:none;padding:10;}
+.bordered a:hover {color:;text-decoration:none;background-color:#F8F8F8 ;padding:10; }
+.bordered a:visited{color:gray  ;text-decoration:none;padding:10;}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------
+END TOP WHITE HEADER. content + custom  link attributes + alignment + custom font attributes + padding*/
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/*MAIN CONTENT MATRIX and WORKSPACE, alignment + custom font attributes
+------------------------------------------------------------------------*/
+
+#main_content_matrix{
+background: #F8F8F8;
+position:relative;
+width:100%;
+margin:auto;
+text-align:left;
+margin-top:80px;
+}
+
+
+#main_content
+{
+background: #F8F8F8;
+position:relative;
+width:760px;
+font-size:110%;
+margin:auto;
+text-align:left;
+margin-top:80px;
+}
+
+
+/*------------------------------------------------------------------------
+END MAIN CONTENT MATRIX and WORKSPACE, alignment + custom font attributes*/
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/*MAIN LINKS and NAVIGATION , custom link attributes + alignment + padding
+------------------------------------------------------------------------------------------------------*/
+
+
+#main_navigation
+{
+width:540px;
+padding:0;
+position:absolute;
+background-color:;
+top:0;
+left:20px;
+}
+
+a.main_navigation_links:link,active{color:green;text-decoration:none;padding:3px;background-color:;}
+a.main_navigation_links:hover{color:#106A10 ;text-decoration:none;padding:3px;background-color:;}
+a.main_navigation_links:visited{color:green;text-decoration:none;padding:3px;}
+
+/* --------------------------------------------------------------------------
+END MAIN LINKS and NAVIGATION , custom link attributes + alignment + padding */
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/* STATUS UPDATES, alignment + padding
+------------------------------------*/
+
+
+#main_workspace
+{
+width:540px;
+padding:;
+position:absolute;
+background-color:orange;
+left:0;
+top:2cm;
+margin:0 0 5cm 0 ;
+}
+
+
+/*-------------------------------------
+END STATUS UPDATES, alignment + padding*/
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/*STICHED BAR and PROFILE PICTURE, alignment + padding
+------------------------------------------------------*/
+
+
+#main_stiched_bar
+{
+width:200px;
+position:absolute;
+color:#383838 ;
+top:2cm;
+right:0;
+background-color:red;
+padding:2;
+}
+
+#main_content_stiched_bar_profile_picture{
+max-width:200px;
+height:auto;
+margin:auto;
+position:relative;
+top:0;
+right:0;
+padding-bottom:7;
+background-color:;
+/*ie max width hack*/
+width: expression( document.body.clientWidth > 199 ? "200px" : "auto" );
+/*end ie max width hack*/
+}
+
+
+/*----------------------------------------------------------
+END STICHED BAR and PROFILE PICTURE, alignment + padding  */
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+
+/* LINK DIVIDERS
+------------------*/
+
+
+#green_link_divider
+{
+color:green;
+}
+
+#gray_link_divider
+{
+color:gray;
+}
+
+
+/*------------------
+END LINK DIVIDERS*/
+
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+
+/*MESSAGE WORKSPACE + APP UPDATES WORKSPACE + SLAM REQUESTS WORKSPACE + FRIEND REQUESTS WORKSPACE
+------------------------------------------------------------------------------------------------*/
+
+
+#other_workspace
+{
+width:560px;
+position:absolute;
+background-color:orange;
+left:0;
+top:2cm;
+padding:;
+margin:0 0 4cm 0;
+color:#383838 ;
+
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+END MESSAGE WORKSPACE + APP UPDATES WORKSPACE + SLAM REQUESTS WORKSPACE + FRIEND REQUESTS WORKSPACE*/
+
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/*MESSAGE WORKSPACE + APP UPDATES WORKSPACE + SLAM REQUESTS WORKSPACE + FRIEND REQUESTS STICHED BAR
+-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#mini_stiched_bar
+{
+position:absolute;
+width:150px;
+right:0;
+top:2cm;
+color:#383838 ;
+padding:;
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------
+END MESSAGE WORKSPACE + APP UPDATES WORKSPACE + SLAM REQUESTS WORKSPACE + FRIEND REQUESTS STICHED BAR*/
+
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+/*SETTING THE DISPLAY OF TABS TO NONE
+-------------------------------------------------------*/
+#messages,#app_updates,#slams,#friends,#home
+
+{
+display:normal;
+}
+
+
+/*----------------------------------------------------*/
+
+
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+
+
+
+/*FOOTER
+--------------------------------------------------------*/
+
+
+
+
+ #footer{
+  position:absolute;
+  bottom:0!important ;
+  left:0;
+  width:100%;
+  height:25px;
+  filter:alpha(opacity=55);      
+       -moz-opacity:0.55;             
+       -khtml-opacity: 0.55;          
+       opacity: 0.5;
+background: black ;   
+font: 100%  Frutiger, "Frutiger Linotype",Univers, Calibri, "Gill Sans", "Gill Sans MT",  "Myriad Pro", Myriad, "DejaVu Sans Condensed",  "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ @media screen{
+  body>div#footer{
+   position: fixed;
+  }
+ }
+
+
+/*----------------------------------------------------
+END FOOTER*/
+
+
+
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+
+-->
+
+

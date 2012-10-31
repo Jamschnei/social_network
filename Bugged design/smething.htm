@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<title>Fixed header and footer</title>
+<style type="text/css">
+ body{
+  margin:0;
+ }
+
+ div#footer{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background :#fff url('/home/shivekk/Desktop/gd.png') repeat-x 0 0;
+  color:#333;
+ }
+ @media screen{
+  body>div#footer{
+   position:fixed;
+  }
+ }
+
+
+</style>
+
+<div id="footer"> footer </div>
+
+</html>
