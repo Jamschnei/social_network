@@ -35,7 +35,7 @@ allFunc={'signup()':'done','signin()':'','signout()':'','addFriend()':'','remove
 #cssFiles
 @bottle.route('/css/:filename')
 def send_static(filename):
-    return bottle.static_file(filename, root='/media/workspace/rellow/')
+    return bottle.static_file(filename, root='D:/Code/social_network/rellow')
 	
 #/-----------------------------------#
 #database functions
